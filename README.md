@@ -1,104 +1,78 @@
-# trabalho_terraform
-CLOUD COMPUTING E SREUMA VISAO PRATICA [Turma 0931.000.01G] - 2026/1
-# Trabalho Cloud Computing
-## Arquitetura de Data Lake em Nuvem para Órgãos Públicos
+
+Introdução
+
+Hoje em dia, os órgãos públicos geram muitos dados e precisam de soluções para armazenar e analisar essas informações.
+
+A computação em nuvem ajuda nesse processo, pois permite guardar dados com mais facilidade e reduzir custos.
+
+Este trabalho apresenta uma solução simples usando um Data Lake em nuvem.
 
 ---
 
-## 📌 Introdução
+Objetivo
 
-A crescente digitalização dos serviços públicos exige soluções tecnológicas capazes de lidar com grandes volumes de dados, garantindo escalabilidade, segurança e eficiência operacional.
+Objetivo Geral
+Criar uma solução em nuvem para organizar e analisar dados.
 
-Neste contexto, a computação em nuvem surge como um modelo estratégico, permitindo a modernização de sistemas e a redução de custos de infraestrutura.
-
-Este trabalho propõe a implementação de uma arquitetura baseada em Data Lake em nuvem para otimizar o armazenamento, processamento e análise de dados.
-
----
-
-## 🎯 Objetivo
-
-### Objetivo Geral
-Projetar uma arquitetura de dados em nuvem escalável e segura.
-
-### Objetivos Específicos
-- Centralizar dados em um Data Lake
-- Utilizar serviços gerenciados
-- Reduzir custos de infraestrutura
-- Permitir análise de dados em tempo real
+Objetivos Específicos
+- Centralizar os dados em um único lugar  
+- Facilitar a análise das informações  
+- Reduzir custos  
+- Melhorar a tomada de decisão  
 
 ---
 
-## 🏛️ Cenário / Problema
+Cenário / Problema
 
-Órgãos públicos possuem sistemas legados com:
-- Baixa integração
-- Dificuldade de análise
-- Alto custo operacional
+Os dados dos órgãos públicos ficam espalhados em vários sistemas, o que causa:
 
-A proposta é integrar essas fontes em uma arquitetura moderna baseada em cloud.
+- Dificuldade para analisar informações  
+- Falta de integração  
+- Alto custo de manutenção  
 
----
-
-## 🧱 Arquitetura da Solução
-
-### 🔹 Ingestão de Dados
-- APIs
-- Sistemas legados
-- Arquivos
-
-Tecnologias:
-- Data Factory / AWS Glue
-- Kafka
+A proposta é centralizar esses dados na nuvem.
 
 ---
 
-### 🔹 Armazenamento – Data Lake
-- Raw (bruto)
-- Trusted (tratado)
-- Refined (analítico)
+Arquitetura da Solução
 
-Tecnologias:
-- Amazon S3
-- Azure Data Lake
+A solução funciona em três etapas simples:
 
----
-
-### 🔹 Processamento
-- ETL / ELT
-- Limpeza e transformação
-
-Tecnologias:
-- Apache Spark
-- Databricks
+Entrada de dados
+Os dados vêm de:
+- Sistemas  
+- Arquivos  
+    
 
 ---
 
-### 🔹 Consumo e BI
-- Dashboards e relatórios
+Armazenamento (Data Lake)
+Todos os dados são armazenados em um único local na nuvem.
 
-Tecnologias:
-- Power BI
-- AWS QuickSight
-
----
-
-### 🔐 Segurança e Governança
-- Controle de acesso (IAM)
-- Criptografia
-- Auditoria
+Os dados podem estar:
+- Brutos  
+- Organizados  
+- Prontos para uso  
 
 ---
 
-## ✅ Benefícios
-
-- Escalabilidade sob demanda
-- Redução de custos
-- Alta disponibilidade
-- Integração de dados
-- Melhor tomada de decisão
+Processamento
+Os dados são:
+- Limpos  
+- Organizados  
+- Preparados para análise  
 
 ---
 
-## 📊 Conclusão
+Benefícios
 
-A adoção de uma arquitetura de Data Lake em nuvem permite modernizar a gestão de dados, melhorar a eficiência operacional e apoiar decisões estratégicas no setor público.
+- Organização dos dados  
+- Redução de custos  
+- Facilidade de acesso  
+- Melhor tomada de decisão  
+
+---
+
+Conclusão
+
+Com o uso da nuvem e do Data Lake, os dados ficam mais organizados e fáceis de analisar, ajudando na tomada de decisões.
